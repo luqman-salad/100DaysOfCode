@@ -6,8 +6,6 @@
 # Solution: https://replit.com/@appbrewery/band-name-generator-end
 
 print("Welcome to the band name generator.")
-print("What is the name of the city you grew up in?")
-cityName = input("")
-print("What is your pet's name?")
-petName = input("")
-print("Your band name could be " + cityName + " " + petName)
+cityName = input("What's name of the city you grew up in?\n")
+petName = input("What's your pet's name?\n")
+print(f"your band name could be {cityName} {petName}")
